@@ -1,4 +1,4 @@
-FROM ruby:2.5-alpine3.7
+FROM ruby:2.5-alpine3.8
 
 RUN mkdir -p /var/lib/fakes3/data
 VOLUME /var/lib/fakes3/data
